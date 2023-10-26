@@ -42,7 +42,7 @@ struct SystemClock *systemClock;
 struct msgbuf {
   long mType;
   int mNum;
-} message;
+};
 
 // Initialize shared memory segment
 void init_shm() {
@@ -172,6 +172,7 @@ int main(int argc, char *argv[]) {
   srand(time(NULL)); // Seed for random number generation
 
   // Setup message queue
+  struct msgbuf inbox, outbox;
   key_t msgKey = ftok("oss.c", 1);
   if (msgKey == -1) {
     perror("ftok");
@@ -222,11 +223,16 @@ int main(int argc, char *argv[]) {
       }
     }
 
-    // Send message to an active child process
+    // Message queue code
     if (active_processes > 0) {
-      message.mNum = 50000000;
-      message.mType = processTable[0].pid;
-      msgsnd(msgQid, &message, sizeof(message), 0);
+      // Send message to an active child process
+      outbox.mNum = 50000000;
+      outbox.mType = processTable[0].pid;
+      msgsnd(msgQid, &outbox, sizeof(outbox), 0);
+
+      // Wait for message from child process
+      msgrcv(msgQid, &inbox, sizeof(inbox), 1, 0);
+      printf("OSS: Received message %d\n", inbox.mNum);
     }
 
   }
