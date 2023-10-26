@@ -1,0 +1,7 @@
+{
+    "C_Cpp.default.compilerPath": "E:\\cygwin64\\bin\\gcc.exe",
+    "files.associations": {
+        "math.h": "c",
+        "fcntl.h": "c"
+    }
+}
