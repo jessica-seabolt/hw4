@@ -1,3 +1,5 @@
+// Jessica Seabolt CMP_SCI 4760-001-10605-2023FS Project 4
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -46,6 +48,7 @@ int main(int argc, char *argv[]) {
   outbox.mType = 1;
   outbox.mNum = 1;
 
+  // Setup message queue
   key_t msgKey = ftok("oss.c", 1);
   if (msgKey == -1) {
     perror("ftok");
@@ -71,17 +74,17 @@ int main(int argc, char *argv[]) {
     msgrcv(msgQid, &inbox, sizeof(inbox), getpid(), 0);
     printf("Worker %d received message from oss\n", getpid());
 
-    // Check if process should terminate, interrupt, or end
-    if (termNum < termProb) {
+    // Check if process should terminate, interrupt, or run out of quantum
+    if (termNum < termProb) { // Terminate
       outbox.mNum = (1 + rand() % 99) * -0.01 * inbox.mNum;
       msgsnd(msgQid, &outbox, sizeof(outbox), 0);
       // Detach from shared memory
       shmdt(systemClock);
       exit(1);
-    } else if (interruptNum < interruptProb) {
+    } else if (interruptNum < interruptProb) { // Interrupt
       outbox.mNum = (1 + rand() % 99) * 0.01 * inbox.mNum;
       msgsnd(msgQid, &outbox, sizeof(outbox), 0);
-    } else {
+    } else { // Run out of quantum
       outbox.mNum = inbox.mNum;
       msgsnd(msgQid, &outbox, sizeof(outbox), 0);
     }

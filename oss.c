@@ -1,4 +1,4 @@
-
+// Jessica Seabolt CMP_SCI 4760-001-10605-2023FS Project 4
 
 // Message queue code adapted from: https://www.geeksforgeeks.org/ipc-using-message-queues/
 
@@ -115,6 +115,7 @@ int main(int argc, char *argv[]) {
   int t = -1; // time interval
   char* logfile = NULL;
 
+  // Parse command line arguments
   int opt;
   while ((opt = getopt(argc, argv, "hn:s:t:f:")) != -1) {
     switch(opt) {
@@ -171,8 +172,12 @@ int main(int argc, char *argv[]) {
 
   // Setup process variables
   int total_processes_launched = 0;
+  unsigned int total_waiting_time = 0;
+  unsigned int total_service_time = 0;
+  unsigned int total_idle_time = 0;
   int active_processes = 0;
   unsigned int nextLaunchTimeNano = 0; // Launch processes after 't' nanoseconds
+  unsigned int nextProcessTable = 0;
 
   srand(time(NULL)); // Seed for random number generation
 
@@ -188,6 +193,19 @@ int main(int argc, char *argv[]) {
 
   while (total_processes_launched < n || active_processes > 0) {
 
+    // Print Process Table every half second
+    if (systemClock->nanoseconds >= nextProcessTable) {
+      for (int i = 0; i < MAX_PROCESSES; i++) {
+        if (processTable[i].occupied) {
+          sprintf(logMessage, "OSS: P%d: PID %d, start time %d:%d, service time %d:%d, event time %d:%d, blocked %d\n", i, processTable[i].pid, processTable[i].startSeconds, processTable[i].startNano, processTable[i].serviceTimeSeconds, processTable[i].serviceTimeNano, processTable[i].eventWaitSec, processTable[i].eventWaitNano, processTable[i].blocked);
+          write_log(logfile, logMessage);
+          printf("%s", logMessage);
+        }
+      }
+
+      nextProcessTable += 500000000; // Print every half second
+
+    }
     // Check if it's time to launch a new process
     if (systemClock->nanoseconds >= nextLaunchTimeNano) {
       if (active_processes < s && total_processes_launched < n) {
@@ -234,11 +252,15 @@ int main(int argc, char *argv[]) {
       }
     }
 
+    // Calculate priority of each process
     int totalTime = systemClock->seconds * 1000000000 + systemClock->nanoseconds;
     double priority = 0;
-    double lowestPriority = 2;
+    double lowestPriority = 1;
     int messageSent = 0;
     int pcb_index = -1;
+    int startTime = 0;
+    int serviceTime = 0;
+    int processTime = 0;
 
     // Calculate priority of each process
     for (int i = 0; i < MAX_PROCESSES; i++) {
@@ -249,14 +271,20 @@ int main(int argc, char *argv[]) {
           printf("%s", logMessage);
           messageSent = 1;
         }
-        int serviceTime = processTable[i].serviceTimeSeconds * 1000000000 + processTable[i].serviceTimeNano;
-        int processTime = totalTime - (processTable[i].startSeconds * 1000000000 + processTable[i].startNano);
-        printf("serviceTime: %d, processTime: %d\n", serviceTime, processTime);
-        if (processTime <= 0) {
-          priority = 0;
+        startTime = processTable[i].startSeconds * 1000000000 + processTable[i].startNano;
+        serviceTime = processTable[i].serviceTimeSeconds * 1000000000 + processTable[i].serviceTimeNano;
+
+        if (serviceTime == 0) {
+          priority = 0; 
         } else {
-          priority = serviceTime / processTime;
-      }
+          processTime = totalTime - startTime;
+          if (processTime > 0) {
+            priority = (double)serviceTime / processTime; 
+          } else {
+            priority = 0; 
+          }
+        }
+
         sprintf(logMessage, "%lf , ", priority);
         write_log(logfile, logMessage);
         printf("%s", logMessage);
@@ -267,13 +295,18 @@ int main(int argc, char *argv[]) {
       }
     }
     
+    int queueTime = 100 + rand() % 9900; // Random time between 100 to 10000 nanoseconds
+    advanceClock(queueTime); // Simulate scheduling time taken by OSS
+
     if (pcb_index != -1) {
       sprintf(logMessage, "]\n");
       write_log(logfile, logMessage);
       printf("%s", logMessage);
+    } 
+    
+    if (pcb_index == -1) {
+      total_idle_time += queueTime;
     }
-
-    advanceClock(1000); // Simulate scheduling time taken by OSS
 
     // Compare blocked processes to current time
     for (int i = 0; i < MAX_PROCESSES; i++) {
@@ -322,6 +355,7 @@ int main(int argc, char *argv[]) {
         sprintf(logMessage, "OSS: Process with PID %d has terminated\n", processTable[pcb_index].pid);
         write_log(logfile, logMessage);
         printf("%s", logMessage);
+        total_service_time += processTable[pcb_index].serviceTimeSeconds * 1000000000 + processTable[pcb_index].serviceTimeNano + inbox.mNum * -1;
         active_processes--;
         processTable[pcb_index].occupied = 0;
         advanceClock(inbox.mNum * -1);
@@ -336,19 +370,22 @@ int main(int argc, char *argv[]) {
         printf("%s", logMessage);
 
         processTable[pcb_index].serviceTimeNano += inbox.mNum;
-        if (processTable[pcb_index].serviceTimeNano >= 1000000000) {
+        while (processTable[pcb_index].serviceTimeNano >= 1000000000) {
           processTable[pcb_index].serviceTimeNano -= 1000000000;
           processTable[pcb_index].serviceTimeSeconds += 1;
         }
 
+        // Calculate time when event will happen
         int r = rand() % 6;
         int s = rand() % 1001;
         unsigned int movingTime = 200 + rand() % 19800; // Additional time to move into blocked state
-      
 
+        total_waiting_time += r * 1000000000 + s;
+      
+        // Set event time
         processTable[pcb_index].eventWaitSec = systemClock->seconds + r;
         processTable[pcb_index].eventWaitNano = systemClock->nanoseconds + s;
-        if (processTable[pcb_index].eventWaitNano >= 1000000000) {
+        while (processTable[pcb_index].eventWaitNano >= 1000000000) {
           processTable[pcb_index].eventWaitNano -= 1000000000;
           processTable[pcb_index].eventWaitSec += 1;
         }        
@@ -364,7 +401,7 @@ int main(int argc, char *argv[]) {
         write_log(logfile, logMessage);
         printf("%s", logMessage);
         processTable[pcb_index].serviceTimeNano += inbox.mNum;
-        if (processTable[pcb_index].serviceTimeNano >= 1000000000) {
+        while (processTable[pcb_index].serviceTimeNano >= 1000000000) {
           processTable[pcb_index].serviceTimeNano -= 1000000000;
           processTable[pcb_index].serviceTimeSeconds += 1;
         }
@@ -376,6 +413,21 @@ int main(int argc, char *argv[]) {
 
   // Print total time taken
   sprintf(logMessage, "OSS: Total time spent in dispatch was %d:%d\n", systemClock->seconds, systemClock->nanoseconds);
+  write_log(logfile, logMessage);
+  printf("%s", logMessage);
+
+  // Print average waiting time
+  sprintf(logMessage, "OSS: Average process waiting time was %u nanoseconds\n", total_waiting_time / n);
+  write_log(logfile, logMessage);
+  printf("%s", logMessage);
+
+  // Print average service time
+  sprintf(logMessage, "OSS: Average CPU utilization was %u nanoseconds\n", total_service_time / n);
+  write_log(logfile, logMessage);
+  printf("%s", logMessage);
+
+  // Print total idle time
+  sprintf(logMessage, "OSS: Total time CPU was idle was %u nanoseconds\n", total_idle_time);
   write_log(logfile, logMessage);
   printf("%s", logMessage);
 

@@ -1,0 +1,38 @@
+## Jessica Seabolt 2023 CS4760 ##
+
+This project implements a parent process `oss` that launches and manages child `worker` processes.
+
+## Compiling
+
+To compile the programs, simply run:
+
+    make
+
+This will build the `oss` and `worker` executables.
+
+## Running
+
+To run `oss`, use:
+
+    ./oss [-h] [-n num procs] [-s max simul procs] [-t time in nanoseconds] [-f logfile]
+
+Where:
+
+-h prints help message
+-n sets the number of children to create
+-s simul sets max number of workers to run simultaneously (max of 20)
+-t timelimit sets the interval between created children (in nanoseconds)
+-f sets a path to a log file
+
+For example:
+
+    ./oss -n 5 -s 3 -t 10000000 -f log.txt
+
+This will allow up to 3 workers to run simultaneously, with 5 workers max, each with a creation interval of 10000000 nanoseconds. The file log.txt will be used to log the simulation.
+
+The oss parent process maintains a simulated system clock and process table in shared memory. It spawns worker processes up to the max limit, tracking them in the table. oss increments the clock and manages workers, moving them from blocked to ready, freeing up occupied space in the PCB, and keeping track of the simulation's statistics.
+
+The worker program runs and pretends to use up the time given to it by oss, or pretends to terminate, or pretends to receive an i/o instruction. Oss handles each of these cases and updates the PCB.
+
+## Known Issues
+For some reason, the last process will sometimes get a much higher priority than intended and force oss to loop several times, usually until the program exits from reaching its time limit of three seconds. This does not always occur.
