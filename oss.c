@@ -94,12 +94,12 @@ int find_free_pcb() {
 // Function to handle signals
 void handleSignal(int sig) {
   if (sig == SIGINT) {
-    printf("OSS: Caught SIGINT, exiting...\n");
+    char* exitMessage = ("OSS: Caught SIGINT, exiting...\n");
   } else if (sig == SIGALRM) {
-    printf("OSS: Caught SIGALRM, exiting...\n");
-  } else {
-    printf("OSS: Caught signal %d, exiting...\n", sig);
+    char* exitMessage = ("OSS: Caught SIGALRM, exiting...\n");
   }
+  write_log(logfile, exitMessage);
+  printf("%s", exitMessage);
   shmctl(shmid, IPC_RMID, NULL);
   msgctl(msgget(ftok("oss.c", 1), 0666 | IPC_CREAT), IPC_RMID, NULL);
   exit(0);
@@ -135,6 +135,7 @@ int main(int argc, char *argv[]) {
   // Setup signal handlers
   signal(SIGINT, handleSignal);
   signal(SIGALRM, handleSignal);
+  alarm(3); // Set alarm for 3 seconds
 
   // Handle missing arguments
   if (n == -1 || s == -1 || t == -1) {
@@ -146,7 +147,7 @@ int main(int argc, char *argv[]) {
   if (!logfile) {
     fprintf(stderr, "Error: No logfile specified.\n");
     exit(1);
-  } else if (n < 1 || s < 1 || t < 1) {
+  } else if (n < 1 || s < 1 || s > 20 || t < 1) {
     fprintf(stderr, "Error: Invalid arguments.\n");
     exit(1);
   }
@@ -181,10 +182,11 @@ int main(int argc, char *argv[]) {
 
   int msgQid = msgget(msgKey, 0666 | IPC_CREAT); 
 
-  while (total_processes_launched < n) {
+  while (total_processes_launched < n || active_processes > 0) {
+
     // Check if it's time to launch a new process
     if (systemClock->nanoseconds >= nextLaunchTimeNano) {
-      if (active_processes < s) {
+      if (active_processes < s && total_processes_launched < n) {
         // Simulate scheduling time taken by OSS
         unsigned int schedulingTime = 100 + rand() % 9900; // Random time between 100 to 10000 nanoseconds
         advanceClock(schedulingTime);
@@ -223,21 +225,105 @@ int main(int argc, char *argv[]) {
       }
     }
 
+    int totalTime = systemClock->seconds * 1000000000 + systemClock->nanoseconds;
+    double priority = 0;
+    double lowestPriority = 2;
+    int pcb_index = -1;
+
+    // Calculate priority of each process
+    for (int i = 0; i < MAX_PROCESSES; i++) {
+      if (processTable[i].occupied && !processTable[i].blocked) {
+        int serviceTime = processTable[i].serviceTimeSeconds * 1000000000 + processTable[i].serviceTimeNano;
+        int processTime = totalTime - (processTable[i].startSeconds * 1000000000 + processTable[i].startNano);
+        if (processTime <= 0) {
+          priority = 0;
+        } else {
+          priority = serviceTime / processTime;
+      }
+        if (priority < lowestPriority) {
+          lowestPriority = priority;
+          pcb_index = i;
+        }
+      }
+    }
+    advanceClock(1000); // Simulate scheduling time taken by OSS
+
+    // Compare blocked processes to current time
+    for (int i = 0; i < MAX_PROCESSES; i++) {
+      if (processTable[i].occupied && processTable[i].blocked) {
+        int eventTime = processTable[i].eventWaitSec * 1000000000 + processTable[i].eventWaitNano;
+        if (eventTime <= totalTime) {
+          // Unblock process
+          processTable[i].blocked = 0;
+          processTable[i].eventWaitSec = 0;
+          processTable[i].eventWaitNano = 0;
+          unsigned int movingTime = 200 + rand() % 19800; // Additional time to move out of blocked state
+          advanceClock(movingTime);
+        }  
+      }
+    }
+    
+
     // Message queue code
-    if (active_processes > 0) {
+    if (active_processes > 0 && pcb_index != -1) {
       // Send message to an active child process
       outbox.mNum = 50000000;
-      outbox.mType = processTable[0].pid;
+      outbox.mType = processTable[pcb_index].pid;
+      printf("OSS: Sending message to child process %d\n", processTable[pcb_index].pid);
       msgsnd(msgQid, &outbox, sizeof(outbox), 0);
+      advanceClock(1000); // Simulate scheduling time taken by OSS
 
       // Wait for message from child process
-      msgrcv(msgQid, &inbox, sizeof(inbox), 1, 0);
-      printf("OSS: Received message %d\n", inbox.mNum);
+      printf("OSS: Waiting for a message...\n");
+      msgrcv(msgQid, &inbox, sizeof(inbox), 1, WNOHANG);
+      if (inbox.mNum < 0) {
+        // Child process has terminated
+        printf("OSS: Child process %d has terminated\n", processTable[pcb_index].pid);
+        active_processes--;
+        processTable[pcb_index].occupied = 0;
+        advanceClock(inbox.mNum * -1);
+      } else if (inbox.mNum < 50000000) {
+        // Child process has requested to be blocked
+        printf("OSS: Child process %d has requested to be blocked\n", processTable[pcb_index].pid);
+        processTable[pcb_index].serviceTimeNano += inbox.mNum;
+        if (processTable[pcb_index].serviceTimeNano >= 1000000000) {
+          processTable[pcb_index].serviceTimeNano -= 1000000000;
+          processTable[pcb_index].serviceTimeSeconds += 1;
+        }
+
+        int r = rand() % 6;
+        int s = rand() % 1001;
+        unsigned int movingTime = 200 + rand() % 19800; // Additional time to move into blocked state
+      
+
+        processTable[pcb_index].eventWaitSec = systemClock->seconds + r;
+        processTable[pcb_index].eventWaitNano = systemClock->nanoseconds + s;
+        if (processTable[pcb_index].eventWaitNano >= 1000000000) {
+          processTable[pcb_index].eventWaitNano -= 1000000000;
+          processTable[pcb_index].eventWaitSec += 1;
+        }        
+        processTable[pcb_index].blocked = 1;
+        advanceClock(inbox.mNum + movingTime);
+      } else {
+        // Child process used up its time slice
+        printf("OSS: Child process %d has used up its time slice\n", processTable[pcb_index].pid);
+        processTable[pcb_index].serviceTimeNano += inbox.mNum;
+        if (processTable[pcb_index].serviceTimeNano >= 1000000000) {
+          processTable[pcb_index].serviceTimeNano -= 1000000000;
+          processTable[pcb_index].serviceTimeSeconds += 1;
+        }
+        advanceClock(inbox.mNum);
+      }
     }
 
   }
 
-  // ... [any cleanup or finalization code] ...
+  // Print total time taken
+  printf("OSS: Total time spent in dispatch was %d seconds and %d nanoseconds\n", systemClock->seconds, systemClock->nanoseconds);
+
+  // Clean up shared memory, message queue, and any other resources used
+  shmctl(shmid, IPC_RMID, NULL);
+  msgctl(msgget(ftok("oss.c", 1), 0666 | IPC_CREAT), IPC_RMID, NULL);
 
   return 0;
 
