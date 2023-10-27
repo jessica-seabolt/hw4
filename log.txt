@@ -1,0 +1,1289 @@
+OSS: Generating process with PID 3338 and putting it in ready queue 0 at time 0:2825
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3338 priority 0.000000 from ready queue 0 at time 0:3825
+OSS: Total time this dispatch was 3584 nanoseconds
+OSS: Receiving process with PID 3338 that ran for 50000000 nanoseconds
+OSS: Process with PID 3338 used up its time slice
+OSS: Generating process with PID 3339 and putting it in ready queue 1 at time 0:50013910
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3338 priority 0.000000 from ready queue 0 at time 0:50014910
+OSS: Total time this dispatch was 6077 nanoseconds
+OSS: Receiving process with PID 3338 that ran for -7000000 nanoseconds
+OSS: Process with PID 3338 has terminated
+OSS: Generating process with PID 3340 and putting it in ready queue 0 at time 0:57029212
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3340 priority 0.000000 from ready queue 0 at time 0:57030212
+OSS: Total time this dispatch was 283 nanoseconds
+OSS: Receiving process with PID 3340 that ran for -17000000 nanoseconds
+OSS: Process with PID 3340 has terminated
+OSS: Generating process with PID 3341 and putting it in ready queue 0 at time 0:74039485
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 0:74040485
+OSS: Total time this dispatch was 895 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+OSS: Generating process with PID 3342 and putting it in ready queue 2 at time 0:124047837
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 0:124048837
+OSS: Total time this dispatch was 2824 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 0:174052661
+OSS: Total time this dispatch was 8049 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 0:224061710
+OSS: Total time this dispatch was 1341 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 0:274064051
+OSS: Total time this dispatch was 4415 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 0:324069466
+OSS: Total time this dispatch was 6380 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 0:374076846
+OSS: Total time this dispatch was 841 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 0:424078687
+OSS: Total time this dispatch was 2992 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 2000000 nanoseconds
+OSS: Process with PID 3341 did not use entire time quantum. Moving into blocked queue 0 at time 0:424081679
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3339 priority 0.000000 from ready queue 1 at time 0:426086750
+OSS: Total time this dispatch was 1636 nanoseconds
+OSS: Receiving process with PID 3339 that ran for 50000000 nanoseconds
+OSS: Process with PID 3339 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3339 priority 0.000000 from ready queue 1 at time 0:476089386
+OSS: Total time this dispatch was 4933 nanoseconds
+OSS: Receiving process with PID 3339 that ran for 50000000 nanoseconds
+OSS: Process with PID 3339 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3339 priority 0.000000 from ready queue 1 at time 0:526095319
+OSS: Total time this dispatch was 2492 nanoseconds
+OSS: Receiving process with PID 3339 that ran for 50000000 nanoseconds
+OSS: Process with PID 3339 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3339 priority 0.000000 from ready queue 1 at time 0:576098811
+OSS: Total time this dispatch was 7668 nanoseconds
+OSS: Receiving process with PID 3339 that ran for -34000000 nanoseconds
+OSS: Process with PID 3339 has terminated
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:610107479
+OSS: Total time this dispatch was 1902 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 500000 nanoseconds
+OSS: Process with PID 3342 did not use entire time quantum. Moving into blocked queue 2 at time 0:610109381
+Ready queue priorities []
+OSS: Putting process with PID 3342 into ready queue 2 at time 0:610613621
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:610614621
+OSS: Total time this dispatch was 7729 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:660623350
+OSS: Total time this dispatch was 8277 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 47000000 nanoseconds
+OSS: Process with PID 3342 did not use entire time quantum. Moving into blocked queue 2 at time 0:660631627
+Ready queue priorities []
+OSS: Putting process with PID 3342 into ready queue 2 at time 0:707643136
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:707644136
+OSS: Total time this dispatch was 8882 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:757654018
+OSS: Total time this dispatch was 5038 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:807660056
+OSS: Total time this dispatch was 2933 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 7000000 nanoseconds
+OSS: Process with PID 3342 did not use entire time quantum. Moving into blocked queue 2 at time 0:807662989
+Ready queue priorities []
+OSS: Putting process with PID 3342 into ready queue 2 at time 0:814678624
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:814679624
+OSS: Total time this dispatch was 3980 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:864684604
+OSS: Total time this dispatch was 4883 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:914690487
+OSS: Total time this dispatch was 1461 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 21500000 nanoseconds
+OSS: Process with PID 3342 did not use entire time quantum. Moving into blocked queue 2 at time 0:914691948
+Ready queue priorities []
+OSS: Putting process with PID 3342 into ready queue 2 at time 0:936228467
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:936229467
+OSS: Total time this dispatch was 5566 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 0:986236033
+OSS: Total time this dispatch was 3275 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 1:36240308
+OSS: Total time this dispatch was 504 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 12000000 nanoseconds
+OSS: Process with PID 3342 did not use entire time quantum. Moving into blocked queue 2 at time 1:36240812
+Ready queue priorities []
+OSS: Putting process with PID 3342 into ready queue 2 at time 1:48274934
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 1:48275934
+OSS: Total time this dispatch was 7841 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 1:98284775
+OSS: Total time this dispatch was 4706 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 50000000 nanoseconds
+OSS: Process with PID 3342 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3341 into ready queue 0 at time 1:148309898
+OSS: Dispatching process with PID 3342 priority 0.000000 from ready queue 2 at time 1:148309898
+OSS: Total time this dispatch was 7919 nanoseconds
+OSS: Receiving process with PID 3342 that ran for 7500000 nanoseconds
+OSS: Process with PID 3342 did not use entire time quantum. Moving into blocked queue 2 at time 1:148317817
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 1:155823884
+OSS: Total time this dispatch was 5239 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 1:205830123
+OSS: Total time this dispatch was 7153 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 1:255838276
+OSS: Total time this dispatch was 5919 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 50000000 nanoseconds
+OSS: Process with PID 3341 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3341 priority 0.000000 from ready queue 0 at time 1:305845195
+OSS: Total time this dispatch was 472 nanoseconds
+OSS: Receiving process with PID 3341 that ran for 18000000 nanoseconds
+OSS: Process with PID 3341 did not use entire time quantum. Moving into blocked queue 0 at time 1:305845667
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+Ready queue priorities []
+OSS: Generating process with PID 3355 and putting it in ready queue 0 at time 0:5828
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3355 priority 0.000000 from ready queue 0 at time 0:6828
+OSS: Total time this dispatch was 4531 nanoseconds
+OSS: Receiving process with PID 3355 that ran for 48500000 nanoseconds
+OSS: Process with PID 3355 did not use entire time quantum. Moving into blocked queue 0 at time 0:11359
+OSS: Generating process with PID 3356 and putting it in ready queue 1 at time 0:48520716
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3355 into ready queue 0 at time 0:48526352
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 0:48526352
+OSS: Total time this dispatch was 6905 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+OSS: Generating process with PID 3357 and putting it in ready queue 2 at time 0:98539914
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3355 priority 0.000000 from ready queue 0 at time 0:98540914
+OSS: Total time this dispatch was 6204 nanoseconds
+OSS: Receiving process with PID 3355 that ran for 50000000 nanoseconds
+OSS: Process with PID 3355 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3355 priority 0.000000 from ready queue 0 at time 0:148548118
+OSS: Total time this dispatch was 5189 nanoseconds
+OSS: Receiving process with PID 3355 that ran for 50000000 nanoseconds
+OSS: Process with PID 3355 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3355 priority 0.000000 from ready queue 0 at time 0:198554307
+OSS: Total time this dispatch was 6467 nanoseconds
+OSS: Receiving process with PID 3355 that ran for 50000000 nanoseconds
+OSS: Process with PID 3355 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3355 priority 0.000000 from ready queue 0 at time 0:248561774
+OSS: Total time this dispatch was 8578 nanoseconds
+OSS: Receiving process with PID 3355 that ran for 50000000 nanoseconds
+OSS: Process with PID 3355 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3355 priority 0.000000 from ready queue 0 at time 0:298571352
+OSS: Total time this dispatch was 9834 nanoseconds
+OSS: Receiving process with PID 3355 that ran for 6000000 nanoseconds
+OSS: Process with PID 3355 did not use entire time quantum. Moving into blocked queue 0 at time 0:298581186
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Putting process with PID 3355 into ready queue 0 at time 0:304591086
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 0:304591086
+OSS: Total time this dispatch was 649 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3355 priority 0.000000 from ready queue 0 at time 0:354592735
+OSS: Total time this dispatch was 5756 nanoseconds
+OSS: Receiving process with PID 3355 that ran for 50000000 nanoseconds
+OSS: Process with PID 3355 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3355 priority 0.000000 from ready queue 0 at time 0:404599491
+OSS: Total time this dispatch was 5634 nanoseconds
+OSS: Receiving process with PID 3355 that ran for -16000000 nanoseconds
+OSS: Process with PID 3355 has terminated
+OSS: Generating process with PID 3358 and putting it in ready queue 0 at time 0:420606108
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:420607108
+OSS: Total time this dispatch was 7003 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:470615111
+OSS: Total time this dispatch was 4131 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:520620242
+OSS: Total time this dispatch was 5497 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:570626739
+OSS: Total time this dispatch was 7815 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:620635554
+OSS: Total time this dispatch was 3576 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:670640130
+OSS: Total time this dispatch was 2699 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:720643829
+OSS: Total time this dispatch was 1978 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:770646807
+OSS: Total time this dispatch was 2200 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:820650007
+OSS: Total time this dispatch was 7582 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:870658589
+OSS: Total time this dispatch was 406 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:920659995
+OSS: Total time this dispatch was 3082 nanoseconds
+OSS: Receiving process with PID 3358 that ran for 50000000 nanoseconds
+OSS: Process with PID 3358 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3358 priority 0.000000 from ready queue 0 at time 0:970664077
+OSS: Total time this dispatch was 8864 nanoseconds
+OSS: Receiving process with PID 3358 that ran for -46500000 nanoseconds
+OSS: Process with PID 3358 has terminated
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:17173941
+OSS: Total time this dispatch was 9407 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+OSS: Generating process with PID 3359 and putting it in ready queue 0 at time 1:67192656
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 1:67193656
+OSS: Total time this dispatch was 4599 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 1:117199255
+OSS: Total time this dispatch was 1195 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 1:167201450
+OSS: Total time this dispatch was 4813 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 9000000 nanoseconds
+OSS: Process with PID 3359 did not use entire time quantum. Moving into blocked queue 0 at time 1:167206263
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:176221063
+OSS: Total time this dispatch was 6274 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:226228337
+OSS: Total time this dispatch was 2328 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:276231665
+OSS: Total time this dispatch was 9834 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:326242499
+OSS: Total time this dispatch was 4708 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:376248207
+OSS: Total time this dispatch was 8576 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:426257783
+OSS: Total time this dispatch was 7570 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:476266353
+OSS: Total time this dispatch was 3977 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:526271330
+OSS: Total time this dispatch was 5576 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:576277906
+OSS: Total time this dispatch was 3326 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 41000000 nanoseconds
+OSS: Process with PID 3356 did not use entire time quantum. Moving into blocked queue 1 at time 1:576281232
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3356 into ready queue 1 at time 1:617304202
+OSS: Dispatching process with PID 3357 priority 0.000000 from ready queue 2 at time 1:617304202
+OSS: Total time this dispatch was 5908 nanoseconds
+OSS: Receiving process with PID 3357 that ran for 50000000 nanoseconds
+OSS: Process with PID 3357 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:667311110
+OSS: Total time this dispatch was 4494 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:717316604
+OSS: Total time this dispatch was 20 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:767317624
+OSS: Total time this dispatch was 4958 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:817323582
+OSS: Total time this dispatch was 2823 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:867327405
+OSS: Total time this dispatch was 2219 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 38500000 nanoseconds
+OSS: Process with PID 3356 did not use entire time quantum. Moving into blocked queue 1 at time 1:867329624
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3359 into ready queue 0 at time 1:905853877
+OSS: Putting process with PID 3356 into ready queue 1 at time 1:905873614
+OSS: Dispatching process with PID 3357 priority 0.000000 from ready queue 2 at time 1:905873614
+OSS: Total time this dispatch was 9560 nanoseconds
+OSS: Receiving process with PID 3357 that ran for -7500000 nanoseconds
+OSS: Process with PID 3357 has terminated
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 1:913384174
+OSS: Total time this dispatch was 6001 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 1:963391175
+OSS: Total time this dispatch was 6533 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 10500000 nanoseconds
+OSS: Process with PID 3359 did not use entire time quantum. Moving into blocked queue 0 at time 1:963397708
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3359 into ready queue 0 at time 1:973918360
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 1:973918360
+OSS: Total time this dispatch was 2081 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 22000000 nanoseconds
+OSS: Process with PID 3356 did not use entire time quantum. Moving into blocked queue 1 at time 1:973920441
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3356 into ready queue 1 at time 1:995940116
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 1:995940116
+OSS: Total time this dispatch was 8127 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 2:45949243
+OSS: Total time this dispatch was 3469 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 2:95953712
+OSS: Total time this dispatch was 3112 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 2:145957824
+OSS: Total time this dispatch was 1452 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 2:195960276
+OSS: Total time this dispatch was 9430 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 20500000 nanoseconds
+OSS: Process with PID 3359 did not use entire time quantum. Moving into blocked queue 0 at time 2:195969706
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 2:216476778
+OSS: Total time this dispatch was 9430 nanoseconds
+OSS: Receiving process with PID 3356 that ran for 50000000 nanoseconds
+OSS: Process with PID 3356 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3356 priority 0.000000 from ready queue 1 at time 2:266487208
+OSS: Total time this dispatch was 8977 nanoseconds
+OSS: Receiving process with PID 3356 that ran for -45500000 nanoseconds
+OSS: Process with PID 3356 has terminated
+OSS: Putting process with PID 3359 into ready queue 0 at time 6:195986276
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 6:195987276
+OSS: Total time this dispatch was 4388 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 4500000 nanoseconds
+OSS: Process with PID 3359 did not use entire time quantum. Moving into blocked queue 0 at time 6:195991664
+OSS: Putting process with PID 3359 into ready queue 0 at time 6:200514719
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 6:200515719
+OSS: Total time this dispatch was 6113 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 6:250522832
+OSS: Total time this dispatch was 4680 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 16500000 nanoseconds
+OSS: Process with PID 3359 did not use entire time quantum. Moving into blocked queue 0 at time 6:250527512
+OSS: Putting process with PID 3359 into ready queue 0 at time 6:267032094
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 6:267033094
+OSS: Total time this dispatch was 43 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 18000000 nanoseconds
+OSS: Process with PID 3359 did not use entire time quantum. Moving into blocked queue 0 at time 6:267033137
+OSS: Putting process with PID 3359 into ready queue 0 at time 6:285070621
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 6:285071621
+OSS: Total time this dispatch was 1546 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 6:335074167
+OSS: Total time this dispatch was 4971 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 35000000 nanoseconds
+OSS: Process with PID 3359 did not use entire time quantum. Moving into blocked queue 0 at time 6:335079138
+OSS: Putting process with PID 3359 into ready queue 0 at time 6:370086865
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 6:370087865
+OSS: Total time this dispatch was 8545 nanoseconds
+OSS: Receiving process with PID 3359 that ran for 50000000 nanoseconds
+OSS: Process with PID 3359 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3359 priority 0.000000 from ready queue 0 at time 6:420097410
+OSS: Total time this dispatch was 900 nanoseconds
+OSS: Receiving process with PID 3359 that ran for -1000000 nanoseconds
+OSS: Process with PID 3359 has terminated
+OSS: Total time spent in dispatch was 6:421098310
+OSS: Generating process with PID 3393 and putting it in ready queue 0 at time 0:4154
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3393 priority 0.000000 from ready queue 0 at time 0:5154
+OSS: Total time this dispatch was 2152 nanoseconds
+OSS: Receiving process with PID 3393 that ran for 50000000 nanoseconds
+OSS: Process with PID 3393 used up its time slice
+OSS: Generating process with PID 3394 and putting it in ready queue 1 at time 0:50011273
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3393 priority 0.000000 from ready queue 0 at time 0:50012273
+OSS: Total time this dispatch was 4466 nanoseconds
+OSS: Receiving process with PID 3393 that ran for 16000000 nanoseconds
+OSS: Process with PID 3393 did not use entire time quantum. Moving into blocked queue 0 at time 0:50016739
+OSS: Generating process with PID 3395 and putting it in ready queue 2 at time 0:66024151
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Putting process with PID 3393 into ready queue 0 at time 0:66025972
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:66025972
+OSS: Total time this dispatch was 2543 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3393 priority 0.000000 from ready queue 0 at time 0:116029515
+OSS: Total time this dispatch was 7594 nanoseconds
+OSS: Receiving process with PID 3393 that ran for 50000000 nanoseconds
+OSS: Process with PID 3393 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3393 priority 0.000000 from ready queue 0 at time 0:166038109
+OSS: Total time this dispatch was 8879 nanoseconds
+OSS: Receiving process with PID 3393 that ran for 50000000 nanoseconds
+OSS: Process with PID 3393 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3393 priority 0.000000 from ready queue 0 at time 0:216047988
+OSS: Total time this dispatch was 5971 nanoseconds
+OSS: Receiving process with PID 3393 that ran for 50000000 nanoseconds
+OSS: Process with PID 3393 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3393 priority 0.000000 from ready queue 0 at time 0:266054959
+OSS: Total time this dispatch was 5805 nanoseconds
+OSS: Receiving process with PID 3393 that ran for 16500000 nanoseconds
+OSS: Process with PID 3393 has terminated
+OSS: Generating process with PID 3396 and putting it in ready queue 0 at time 0:282564780
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3396 priority 0.000000 from ready queue 0 at time 0:282565780
+OSS: Total time this dispatch was 6534 nanoseconds
+OSS: Receiving process with PID 3396 that ran for 38000000 nanoseconds
+OSS: Process with PID 3396 did not use entire time quantum. Moving into blocked queue 0 at time 0:282572314
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Putting process with PID 3396 into ready queue 0 at time 0:320596701
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:320596701
+OSS: Total time this dispatch was 2517 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3396 priority 0.000000 from ready queue 0 at time 0:370600218
+OSS: Total time this dispatch was 5671 nanoseconds
+OSS: Receiving process with PID 3396 that ran for 42000000 nanoseconds
+OSS: Process with PID 3396 has terminated
+OSS: Generating process with PID 3397 and putting it in ready queue 0 at time 0:412611549
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3397 priority 0.000000 from ready queue 0 at time 0:412612549
+OSS: Total time this dispatch was 4320 nanoseconds
+OSS: Receiving process with PID 3397 that ran for 50000000 nanoseconds
+OSS: Process with PID 3397 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3397 priority 0.000000 from ready queue 0 at time 0:462617869
+OSS: Total time this dispatch was 4858 nanoseconds
+OSS: Receiving process with PID 3397 that ran for 43000000 nanoseconds
+OSS: Process with PID 3397 did not use entire time quantum. Moving into blocked queue 0 at time 0:462622727
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Putting process with PID 3397 into ready queue 0 at time 0:505632703
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:505632703
+OSS: Total time this dispatch was 8896 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3397 priority 0.000000 from ready queue 0 at time 0:555642599
+OSS: Total time this dispatch was 5814 nanoseconds
+OSS: Receiving process with PID 3397 that ran for 16500000 nanoseconds
+OSS: Process with PID 3397 has terminated
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:572149413
+OSS: Total time this dispatch was 6787 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 39000000 nanoseconds
+OSS: Process with PID 3394 did not use entire time quantum. Moving into blocked queue 1 at time 0:572156200
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3394 into ready queue 1 at time 0:611193600
+OSS: Dispatching process with PID 3395 priority 0.000000 from ready queue 2 at time 0:611193600
+OSS: Total time this dispatch was 216 nanoseconds
+OSS: Receiving process with PID 3395 that ran for 50000000 nanoseconds
+OSS: Process with PID 3395 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:661194816
+OSS: Total time this dispatch was 8118 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:711203934
+OSS: Total time this dispatch was 2896 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:761207830
+OSS: Total time this dispatch was 2189 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:811211019
+OSS: Total time this dispatch was 660 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 0:861212679
+OSS: Total time this dispatch was 6842 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 48500000 nanoseconds
+OSS: Process with PID 3394 did not use entire time quantum. Moving into blocked queue 1 at time 0:861219521
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3395 priority 0.000000 from ready queue 2 at time 0:909738566
+OSS: Total time this dispatch was 8136 nanoseconds
+OSS: Receiving process with PID 3395 that ran for 50000000 nanoseconds
+OSS: Process with PID 3395 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3395 priority 0.000000 from ready queue 2 at time 0:959747702
+OSS: Total time this dispatch was 5868 nanoseconds
+OSS: Receiving process with PID 3395 that ran for 17000000 nanoseconds
+OSS: Process with PID 3395 did not use entire time quantum. Moving into blocked queue 2 at time 0:959753570
+OSS: Putting process with PID 3394 into ready queue 1 at time 1:566258459
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 1:566259459
+OSS: Total time this dispatch was 832 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 1:616261291
+OSS: Total time this dispatch was 5119 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 50000000 nanoseconds
+OSS: Process with PID 3394 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 1:666267410
+OSS: Total time this dispatch was 4308 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 47000000 nanoseconds
+OSS: Process with PID 3394 did not use entire time quantum. Moving into blocked queue 1 at time 1:666271718
+OSS: Putting process with PID 3394 into ready queue 1 at time 1:713284249
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3394 priority 0.000000 from ready queue 1 at time 1:713285249
+OSS: Total time this dispatch was 724 nanoseconds
+OSS: Receiving process with PID 3394 that ran for 8500000 nanoseconds
+OSS: Process with PID 3394 has terminated
+OSS: Putting process with PID 3395 into ready queue 2 at time 1:959775038
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3395 priority 0.000000 from ready queue 2 at time 1:959776038
+OSS: Total time this dispatch was 5046 nanoseconds
+OSS: Receiving process with PID 3395 that ran for 47000000 nanoseconds
+OSS: Process with PID 3395 did not use entire time quantum. Moving into blocked queue 2 at time 1:959781084
+OSS: Putting process with PID 3395 into ready queue 2 at time 2:6816201
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3395 priority 0.000000 from ready queue 2 at time 2:6817201
+OSS: Total time this dispatch was 3457 nanoseconds
+OSS: Receiving process with PID 3395 that ran for 1000000 nanoseconds
+OSS: Process with PID 3395 did not use entire time quantum. Moving into blocked queue 2 at time 2:6820658
+OSS: Putting process with PID 3395 into ready queue 2 at time 2:7845470
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3395 priority 0.000000 from ready queue 2 at time 2:7846470
+OSS: Total time this dispatch was 8925 nanoseconds
+OSS: Receiving process with PID 3395 that ran for 26000000 nanoseconds
+OSS: Process with PID 3395 did not use entire time quantum. Moving into blocked queue 2 at time 2:7855395
+OSS: Putting process with PID 3395 into ready queue 2 at time 2:33889903
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3395 priority 0.000000 from ready queue 2 at time 2:33890903
+OSS: Total time this dispatch was 8078 nanoseconds
+OSS: Receiving process with PID 3395 that ran for 50000000 nanoseconds
+OSS: Process with PID 3395 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3395 priority 0.000000 from ready queue 2 at time 2:83899981
+OSS: Total time this dispatch was 4479 nanoseconds
+OSS: Receiving process with PID 3395 that ran for 41000000 nanoseconds
+OSS: Process with PID 3395 has terminated
+OSS: Total time spent in dispatch was 2:124904460
+OSS: Generating process with PID 3410 and putting it in ready queue 0 at time 0:2074
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 0:3074
+OSS: Total time this dispatch was 8280 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 50000000 nanoseconds
+OSS: Process with PID 3410 used up its time slice
+OSS: Generating process with PID 3411 and putting it in ready queue 1 at time 0:50021060
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 0:50022060
+OSS: Total time this dispatch was 6743 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 1500000 nanoseconds
+OSS: Process with PID 3410 did not use entire time quantum. Moving into blocked queue 0 at time 0:50028803
+OSS: Generating process with PID 3412 and putting it in ready queue 2 at time 0:51551182
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3411 priority 0.000000 from ready queue 1 at time 0:51552182
+OSS: Total time this dispatch was 3770 nanoseconds
+OSS: Receiving process with PID 3411 that ran for 50000000 nanoseconds
+OSS: Process with PID 3411 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3411 priority 0.000000 from ready queue 1 at time 0:101556952
+OSS: Total time this dispatch was 6828 nanoseconds
+OSS: Receiving process with PID 3411 that ran for 50000000 nanoseconds
+OSS: Process with PID 3411 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3411 priority 0.000000 from ready queue 1 at time 0:151564780
+OSS: Total time this dispatch was 6506 nanoseconds
+OSS: Receiving process with PID 3411 that ran for 37500000 nanoseconds
+OSS: Process with PID 3411 did not use entire time quantum. Moving into blocked queue 1 at time 0:151571286
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3411 into ready queue 1 at time 0:189091379
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 0:189091379
+OSS: Total time this dispatch was 6150 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3411 priority 0.000000 from ready queue 1 at time 0:239098529
+OSS: Total time this dispatch was 3816 nanoseconds
+OSS: Receiving process with PID 3411 that ran for 13000000 nanoseconds
+OSS: Process with PID 3411 has terminated
+OSS: Generating process with PID 3413 and putting it in ready queue 1 at time 0:252107482
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 0:252108482
+OSS: Total time this dispatch was 1851 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 16500000 nanoseconds
+OSS: Process with PID 3413 did not use entire time quantum. Moving into blocked queue 1 at time 0:252110333
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3413 into ready queue 1 at time 0:268630143
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 0:268630143
+OSS: Total time this dispatch was 2518 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 0:318633661
+OSS: Total time this dispatch was 4889 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 8000000 nanoseconds
+OSS: Process with PID 3413 did not use entire time quantum. Moving into blocked queue 1 at time 0:318638550
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 0:326646286
+OSS: Total time this dispatch was 8166 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 0:376655452
+OSS: Total time this dispatch was 2046 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 30000000 nanoseconds
+OSS: Process with PID 3412 did not use entire time quantum. Moving into blocked queue 2 at time 0:376657498
+OSS: Putting process with PID 3410 into ready queue 0 at time 0:755065111
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 0:755066111
+OSS: Total time this dispatch was 1734 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 21500000 nanoseconds
+OSS: Process with PID 3410 did not use entire time quantum. Moving into blocked queue 0 at time 0:755067845
+OSS: Putting process with PID 3413 into ready queue 1 at time 1:318656819
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 1:318657819
+OSS: Total time this dispatch was 1036 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 6000000 nanoseconds
+OSS: Process with PID 3413 did not use entire time quantum. Moving into blocked queue 1 at time 1:318658855
+OSS: Putting process with PID 3413 into ready queue 1 at time 1:324680814
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 1:324681814
+OSS: Total time this dispatch was 2401 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 1:374685215
+OSS: Total time this dispatch was 5131 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 27000000 nanoseconds
+OSS: Process with PID 3413 did not use entire time quantum. Moving into blocked queue 1 at time 1:374690346
+OSS: Putting process with PID 3412 into ready queue 2 at time 1:401702865
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 1:401703865
+OSS: Total time this dispatch was 1115 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 1:451705980
+OSS: Total time this dispatch was 9229 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3410 into ready queue 0 at time 1:501729872
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 1:501729872
+OSS: Total time this dispatch was 3014 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 1:551733886
+OSS: Total time this dispatch was 1746 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 50000000 nanoseconds
+OSS: Process with PID 3410 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 1:601736632
+OSS: Total time this dispatch was 8552 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 20000000 nanoseconds
+OSS: Process with PID 3410 did not use entire time quantum. Moving into blocked queue 0 at time 1:601745184
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3410 into ready queue 0 at time 1:621765499
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 1:621765499
+OSS: Total time this dispatch was 7584 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 1:671774083
+OSS: Total time this dispatch was 6776 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 50000000 nanoseconds
+OSS: Process with PID 3410 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 1:721781859
+OSS: Total time this dispatch was 67 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 50000000 nanoseconds
+OSS: Process with PID 3410 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 1:771782926
+OSS: Total time this dispatch was 4260 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 50000000 nanoseconds
+OSS: Process with PID 3410 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 1:821788186
+OSS: Total time this dispatch was 5665 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 50000000 nanoseconds
+OSS: Process with PID 3410 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3410 priority 0.000000 from ready queue 0 at time 1:871794851
+OSS: Total time this dispatch was 8152 nanoseconds
+OSS: Receiving process with PID 3410 that ran for 40000000 nanoseconds
+OSS: Process with PID 3410 has terminated
+OSS: Generating process with PID 3414 and putting it in ready queue 0 at time 1:911809571
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3414 priority 0.000000 from ready queue 0 at time 1:911810571
+OSS: Total time this dispatch was 2931 nanoseconds
+OSS: Receiving process with PID 3414 that ran for 4500000 nanoseconds
+OSS: Process with PID 3414 did not use entire time quantum. Moving into blocked queue 0 at time 1:911813502
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3414 into ready queue 0 at time 1:916331359
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 1:916331359
+OSS: Total time this dispatch was 8316 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3414 priority 0.000000 from ready queue 0 at time 1:966340675
+OSS: Total time this dispatch was 3430 nanoseconds
+OSS: Receiving process with PID 3414 that ran for 50000000 nanoseconds
+OSS: Process with PID 3414 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3414 priority 0.000000 from ready queue 0 at time 2:16345105
+OSS: Total time this dispatch was 6094 nanoseconds
+OSS: Receiving process with PID 3414 that ran for 50000000 nanoseconds
+OSS: Process with PID 3414 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3414 priority 0.000000 from ready queue 0 at time 2:66352199
+OSS: Total time this dispatch was 7069 nanoseconds
+OSS: Receiving process with PID 3414 that ran for 35000000 nanoseconds
+OSS: Process with PID 3414 has terminated
+Ready queue priorities [0.000000 , ]
+OSS: Putting process with PID 3413 into ready queue 1 at time 2:101374779
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 2:101374779
+OSS: Total time this dispatch was 7291 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 50000000 nanoseconds
+OSS: Process with PID 3412 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 2:151383070
+OSS: Total time this dispatch was 9637 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [0.000000 , 0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 2:201393707
+OSS: Total time this dispatch was 8032 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 6500000 nanoseconds
+OSS: Process with PID 3413 did not use entire time quantum. Moving into blocked queue 1 at time 2:201401739
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3412 priority 0.000000 from ready queue 2 at time 2:207913798
+OSS: Total time this dispatch was 6706 nanoseconds
+OSS: Receiving process with PID 3412 that ran for 41500000 nanoseconds
+OSS: Process with PID 3412 did not use entire time quantum. Moving into blocked queue 2 at time 2:207920504
+OSS: Putting process with PID 3413 into ready queue 1 at time 4:201411689
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 4:201412689
+OSS: Total time this dispatch was 895 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 4:251414584
+OSS: Total time this dispatch was 7249 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 4:301422833
+OSS: Total time this dispatch was 4805 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 4:351428638
+OSS: Total time this dispatch was 8478 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 4:401438116
+OSS: Total time this dispatch was 4024 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 4:451443140
+OSS: Total time this dispatch was 1223 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [0.000000 , ]
+OSS: Dispatching process with PID 3413 priority 0.000000 from ready queue 1 at time 4:501445363
+OSS: Total time this dispatch was 9089 nanoseconds
+OSS: Receiving process with PID 3413 that ran for 50000000 nanoseconds
+OSS: Process with PID 3413 used up its time slice
+Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [117.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [116.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [115.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [114.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [113.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [112.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [111.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [110.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [109.000000 , Ready queue priorities [
